@@ -22,7 +22,7 @@ Cada laboratório propõe a implementação de conceitos como classes, herança,
 
 - `lab01`: executar Main.java somente, todas as criações e verificações serão impressas na tela.
 
-- `lab02`: executar Main.java somente, todas as criações e verificações criações serão impressas na tela.
+- `lab02`: executar Main.java somente, todas as criações e verificações serão impressas na tela.
 
 - `lab03`: executar Main.java e escolher as opções desejadas para testar os Robôs e Objetos implementados, o menu apresentado é no seguinte modelo:
 
