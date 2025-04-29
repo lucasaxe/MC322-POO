@@ -27,7 +27,7 @@ Cada laboratório propõe a implementação de conceitos como classes, herança,
 - `lab03`: executar Main.java e escolher as opções desejadas para testar os Robôs e Objetos implementados, o menu apresentado é no seguinte modelo:
 
 ——————————————————————————————————————
-                MENU
+&nbsp&nbsp&nbspMENU
 1. Visualizar status do ambiente
 2. Mover robô
 3. Ativar sensor
