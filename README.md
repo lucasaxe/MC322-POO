@@ -28,7 +28,7 @@ Cada laboratório propõe a implementação de conceitos como classes, herança,
 
 ——————————————————————————————————————
 
-&nbsp;&nbsp;&nbsp;MENU
+_____________MENU
 1. Visualizar status do ambiente
 2. Mover robô
 3. Ativar sensor
