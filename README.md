@@ -15,6 +15,7 @@ Cada laboratório propõe a implementação de conceitos como classes, herança,
 - `lab01-281302`: *Primeiros conceitos de classes e objetos*
 - `lab02-281302`: *Introdução a herança e sobrescrita de métodos*
 - `lab03-281302`: *Sistema de simulação de robôs e sensores*
+- `lab04-281302`: *Sistema de simulação de robôs e sensores*
 
 ---
 
@@ -24,24 +25,27 @@ Cada laboratório propõe a implementação de conceitos como classes, herança,
 
 - `lab02`: executar Main.java somente, todas as criações e verificações serão impressas na tela.
 
+- `lab03`: executar Main.java e escolher as opções desejadas para testar os Robôs e Objetos implementados.
+
 - `lab03`: executar Main.java e escolher as opções desejadas para testar os Robôs e Objetos implementados, o menu apresentado é no seguinte modelo:
 
-————————————————————————
 
-_____________MENU
-1. Visualizar status do ambiente
-2. Mover robô
-3. Ativar sensor
-4. Detectar colisões
-5. Funcionalidades específicas
-0. Sair
-
-———————————————————————
-
-Escolha uma opção: 
+====== MENU PRINCIPAL DO SIMULADOR ======
+1. Visualizar Mapa do Ambiente
+2. Listar Robôs (por tipo ou estado)
+3. Interagir com um Robô Específico
+4. Ativar Sensores de Todos os Robôs
+5. Ver Histórico de Comunicação
+0. Sair da Simulação
+Sua escolha: 
 
 
 ## Diagrama de classes do laboratório 3
 
 ![Diagrama Laboratório 3](resources/diagrama.png)
+
+## Diagrama de classes do laboratório 4
+
+![Diagrama Laboratório 4](resources/diagrama4.png)
+
 
