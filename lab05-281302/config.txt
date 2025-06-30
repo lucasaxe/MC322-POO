@@ -1,0 +1,44 @@
+# -----------------------------------------------------------------
+# Arquivo de Configuração para o Simulador de Robôs (Exemplo Detalhado)
+# -----------------------------------------------------------------
+# Laboratório 5 - MC322
+# Formato das linhas:
+# AMBIENTE <dimX> <dimY> <dimZ>
+# ROBO <Tipo> <ID> <Nome> <X> <Y> <Z>
+# OBSTACULO <Tipo> <X> <Y> <Z>
+# MISSAO <ID_Robo> <TIPO_MISSAO> [parametros...]
+# -----------------------------------------------------------------
+
+# [cite_start]Define as dimensões do ambiente. [cite: 22]
+AMBIENTE 15 15 10
+
+# --- Definição dos Robôs ---
+# Adiciona Agentes Inteligentes do tipo RoboExplorador em diferentes posições.
+# [cite_start]Formato: ROBO <Tipo> <ID> <Nome> <X> <Y> <Z> [cite: 23]
+ROBO EXPLORADOR R1 Wall-E 1 1 0
+ROBO EXPLORADOR R2 Eve 13 13 0
+ROBO EXPLORADOR R3 M-O 7 7 0
+
+# --- Definição dos Obstáculos ---
+# Adiciona vários tipos de obstáculos no mapa.
+# [cite_start]Formato: OBSTACULO <Tipo> <X> <Y> <Z> [cite: 24]
+OBSTACULO ARVORE 3 4 0
+OBSTACULO ARVORE 4 4 0
+OBSTACULO PREDIO 8 2 0
+OBSTACULO GELEIRA 12 5 0
+OBSTACULO BURACO 6 10 0
+# Obstáculos aéreos com coordenada Z > 0
+OBSTACULO BALAO 10 12 5
+OBSTACULO NUVEM 2 8 8
+
+# --- Atribuição de Missões ---
+# Atribui missões específicas aos robôs definidos acima.
+# [cite_start]Formato: MISSAO <ID_Robo> <TIPO_MISSAO> [parametros...] [cite: 24]
+# Missão para o robô R1: ir até a coordenada (10, 10, 0).
+MISSAO R1 BUSCARPONTO 10 10 0
+
+# Missão para o robô R2: explorar o ambiente por 40 passos aleatórios.
+MISSAO R2 EXPLORAR 40
+
+# Missão para o robô R3: buscar o ponto (1, 1, 0), onde está o Wall-E.
+MISSAO R3 BUSCARPONTO 1 1 0
