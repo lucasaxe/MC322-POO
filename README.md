@@ -59,8 +59,8 @@ Sua escolha:
     MISSAO R1 BUSCARPONTO 10 10 0
     MISSAO R2 EXPLORAR 40
     ```
-2.  **Execute `Main.java`**. [cite_start]O programa irá ler o `config.txt` para inicializar o cenário.
-3.  [cite_start]Utilize o menu interativo para atribuir ou executar missões autônomas. A execução de uma missão irá gerar um arquivo de log (ex: `log_missao_R1.txt`) na raiz do projeto. 
+2.  **Execute `Main.java`**. O programa irá ler o `config.txt` para inicializar o cenário.
+3.  Utilize o menu interativo para atribuir ou executar missões autônomas. A execução de uma missão irá gerar um arquivo de log (ex: `log_missao_R1.txt`) na raiz do projeto. 
     ```
     ====== MENU PRINCIPAL (LAB 5) ======
     1. Visualizar Mapa do Ambiente
